@@ -346,3 +346,8 @@ Successful authentication opens a new shell session.
 
 Security Recommendation: After verifying key-based authentication works, consider disabling password authentication for enhanced security.
 
+Coopy war file to tomcat server using below command 
+
+```
+scp demo.war ubuntu@54.90.114.48:/opt/tomcat/webapps/
+```
