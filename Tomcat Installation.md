@@ -2,9 +2,8 @@
 
 ## How To Install Apache Tomcat 10 on Ubuntu 20.04
 
-**Updated on April 13, 2022**  
 **Java | Ubuntu 20.04 | Apache**  
-**Authors:** Justin Ellingwood, Savic, and Caitlin Postal  
+**Authors:** Siddesh P M
 
 ---
 
