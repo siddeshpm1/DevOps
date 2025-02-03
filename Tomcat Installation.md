@@ -241,3 +241,13 @@ Use this interface to manage virtual hosts.
 In this tutorial, you installed Apache Tomcat 10 on Ubuntu 20.04, created an admin user, configured a systemd service, and accessed the Tomcat web interface.
 
 You’re now ready to deploy Java applications on your Tomcat server!
+
+# How To Set Up SSH Key-Based Authentication on an Ubuntu Server
+
+## Step 1 — Creating the Key Pair
+
+The first step is to create a key pair on the client machine (usually your computer):
+
+```shell
+ssh-keygen
+
