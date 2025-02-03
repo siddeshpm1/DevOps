@@ -313,6 +313,7 @@ On your server, create SSH directory (if needed):
 
 ```
 mkdir -p ~/.ssh
+```
 Add public key to authorized keys:
 
 ```
@@ -326,27 +327,22 @@ chmod -R go= ~/.ssh
 Ensure correct ownership (replace sammy with your username):
 ```
 chown -R sammy:sammy ~/.ssh
-
+```
 **Step 3 — Authenticating to Your Ubuntu Server Using SSH Keys**
 Connect using:
 
-
+```
 ssh username@remote_host
+```
 First connection warning (type yes to continue):
 
-vbnet
-Copy
-Edit
+```
 The authenticity of host '203.0.113.1 (203.0.113.1)' can't be established...
 Are you sure you want to continue connecting (yes/no)? yes
+```
 If using a passphrase, you'll be prompted to enter it.
 
 Successful authentication opens a new shell session.
 
 Security Recommendation: After verifying key-based authentication works, consider disabling password authentication for enhanced security.
 
-pgsql
-Copy
-Edit
-
-This Markdown file contains all the necessary steps for setting up SSH key-based authentication 
