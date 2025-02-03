@@ -75,7 +75,7 @@ cd /tmp
 Download the latest Tomcat 10 Core Linux build:
 
 ```bash
-wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.20/bin/apache-tomcat-10.0.20.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.34/bin/apache-tomcat-10.1.34.tar.gz
 ```
 
 Extract the archive:
