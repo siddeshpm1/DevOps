@@ -16,10 +16,14 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
  You can install jenkins using the rpm or by setting up the repo. We will set up the repo so that we can update it easily in the future.
 1. Get the latest version of jenkins from https://pkg.jenkins.io/redhat-stable/ and install
    ```sh
-   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-   amazon-linux-extras install epel 
-   amazon-linux-extras install java-openjdk11  
+   sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+	sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+	sudo yum upgrade
+	# Add required dependencies for the jenkins package
+	sudo yum install fontconfig java-17-openjdk
+	sudo yum install jenkins
+	sudo systemctl daemon-reload
    
    #on RedHat/CentOs 
    #yum install epel-release # repository that provides 'daemonize'
