@@ -31,14 +31,33 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    #yum install jenkins
    ```
 
-   ### Start Jenkins
-   ```sh
-   # Start jenkins service
-   service jenkins start
+# Start Jenkins
 
-   # Setup Jenkins to start at boot,
-   chkconfig jenkins on
-   ```
+You can enable the Jenkins service to start at boot with the command:
+
+```bash
+sudo systemctl enable jenkins
+```
+
+You can start the Jenkins service with the command:
+
+```bash
+sudo systemctl start jenkins
+```
+
+You can check the status of the Jenkins service using the command:
+
+```bash
+sudo systemctl status jenkins
+```
+
+If everything has been set up correctly, you should see an output like this:
+
+```
+Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+Active: active (running) since Tue 2023-06-22 16:19:01 +03; 4min 57s ago
+...
+
 
    ### Accessing Jenkins
    By default jenkins runs at port `8080`, You can access jenkins at
