@@ -56,9 +56,8 @@ If everything has been set up correctly, you should see an output like this:
 ```
 Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
 Active: active (running) since Tue 2023-06-22 16:19:01 +03; 4min 57s ago
-...
 
-
+```
    ### Accessing Jenkins
    By default jenkins runs at port `8080`, You can access jenkins at
    ```sh
