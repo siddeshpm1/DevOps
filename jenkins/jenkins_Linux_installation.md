@@ -22,6 +22,7 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 	sudo yum upgrade
 	# Add required dependencies for the jenkins package
 	sudo yum install fontconfig java-17-openjdk
+   	# sudo dnf install java-17-amazon-corretto -y
 	sudo yum install jenkins
 	sudo systemctl daemon-reload
    
