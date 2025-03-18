@@ -46,19 +46,6 @@ Source: https://docs.sonarqube.org/latest/requirements/requirements/
 
 ## 📌 Who is using this   
 People who want to setup SonarQube and would like to integrate with Jenkins 
-
-
-
-## Additional Resources
-
- - [How to integrate SonarQube wih Jenkins](https://www.youtube.com/c/ValaxyTechnologies/videos)  
- 
-   
-## 🔗 My Profile
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/user/ar-shankar/)  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravdsun/)
-
-
   ### 💡 Help/Suggestions or 🐛 Bugs
 
 Thank you for your interest in contributing to our project. Whether it is a bug report, new feature, correction, or additional documentation or solutions, we greatly value feedback and contributions from our community. [Start here](/issues)   
